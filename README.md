@@ -3,7 +3,7 @@
 A modern Scala 3 REST API for searching japanese definitions on Jisho.
 
 A small project to test some of the VirtusLab Scala Stack. Since this
-is a well scoped project. I chose sbt over scala-cli because of familiarity. 
+is a well scoped project, I chose sbt over scala-cli because of familiarity. 
 
 Built following the **VirtusLab Scala Stack (VSS)** guidelines with some personal modifications:
 - **Direct-Style Scala 3**: Clean, imperative-feeling, synchronous-looking code without monadic effect wrappers (`Future`, `IO`, `Task`).
@@ -20,7 +20,7 @@ Built following the **VirtusLab Scala Stack (VSS)** guidelines with some persona
 
 ### Prerequisites
 - JDK 21+
-- sbt 1.10+ (or the included `./sbtx` wrapper script)
+- sbt 1.10+ 
 
 ### Build and Test
 ```shell
