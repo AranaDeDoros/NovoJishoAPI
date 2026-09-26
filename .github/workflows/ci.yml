@@ -17,6 +17,8 @@ jobs:
           java-version: "21"
           cache: sbt
 
-      - uses: sbt/sbt-action@v2
+      - uses: coursier/setup-action@v1
+        with:
+          apps: sbt
 
       - run: sbt test
